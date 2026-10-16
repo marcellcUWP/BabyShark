@@ -29,13 +29,14 @@ def verse_maker(family):
     for repeat in range(REPEAT):
         print(f"""{family} Shark,
 doo-doo-doo-do-do-do-do""")
-        repeat += 1
+    repeat += 1
     print(f"{family} Shark!")
 
 def main():
     verse_maker("Baby")
     verse_maker("Mommy")
     verse_maker("Daddy")
+
 
 
 if __name__ == "__main__":
