@@ -23,13 +23,11 @@ Output: The sound Baby Shark, with three verses:
 # CONSTANTS
 ##############
 REPEAT = 3
-repeat = 0
 
 def verse_maker(family):
-    for repeat in range(REPEAT):
+    for _ in range(REPEAT):
         print(f"""{family} Shark,
 doo-doo-doo-do-do-do-do""")
-    repeat += 1
     print(f"{family} Shark!")
 
 def main():
